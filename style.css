@@ -1,0 +1,64 @@
+header{
+width: auto; 
+height: 100px; 
+background: linear-gradient(#F8C8F4, white);
+position: relative;
+color: gold;
+padding:100px;
+text-align:center;
+word-spacing:10px;
+
+}
+
+h1{
+margin: 0;
+}
+
+h2{
+margin-bottom: 40px;
+
+}
+
+ul{
+list-style:none;
+}
+
+li{
+margin-bottom: 10px;
+}
+
+a{
+color: red;
+text-decoration: none;
+}
+
+section{
+margin-bottom:60px; 
+}
+
+a:hover{
+color:blue;
+background-color: yellow;
+}
+
+article{
+background-color: #f5f5f5;
+}
+
+body{
+
+
+}
+
+footer {
+width: auto; 
+height: 200px; 
+background: linear-gradient(white, #F8C8F4);
+position: relative;
+color: gold;
+padding:8px;
+text-align:center;
+word-spacing:10px;
+
+}
+
