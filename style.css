@@ -1,13 +1,22 @@
 header{
 width: auto; 
-height: 100px; 
-background: linear-gradient(#F8C8F4, white);
+height: px; 
+background-color:;
 position: relative;
 color: gold;
-padding:100px;
+padding:10 px;
 text-align:center;
 word-spacing:10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
 
+}
+
+nav {
+background-color:purple;
+word-spacing:10px;
+font-size: 22px;
+color: gold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -28,7 +37,7 @@ margin-bottom: 10px;
 }
 
 a{
-color: red;
+color: gold;
 text-decoration: none;
 }
 
@@ -38,7 +47,7 @@ margin-bottom:60px;
 
 a:hover{
 color:blue;
-background-color: yellow;
+background-color: none;
 }
 
 article{
@@ -46,19 +55,133 @@ background-color: #f5f5f5;
 }
 
 body{
-
-
+font-family: Verdana, Arial, Helvetica, sans-serif;
+padding:40px;
+background-color: #ffe6ff;
 }
+
+
 
 footer {
 width: auto; 
 height: 200px; 
-background: linear-gradient(white, #F8C8F4);
+background-color: #ffe6ff;
 position: relative;
 color: gold;
 padding:8px;
 text-align:center;
 word-spacing:10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.card1 {
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+  border-style: solid;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.card2 {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-style: solid;
+ 
+ 
+}
+
+.price {
+  color: gold;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #ffe6ff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 
 }
 
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main{
+ margin-top: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+hr {
+height:10px;
+border-width:0;
+color:#ffe6ff;
+background-color:purple
+}
